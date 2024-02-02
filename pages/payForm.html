@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Form</title>
+    <link href="../css/main.css" rel="stylesheet"/>
+    <link href="../css/payform.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="link"><a href="../index.html">Home</a></div>
+            <div class="link"><a href="./payForm.html">Tickets</a></div>
+            <div class="link"><a href="./calendar.html">Calendar</a></div>
+    </div>
+    <img src="../images/buildingz.png" alt="outside of theater">
+    </header>
+    <!--under this is the Form-->
+    <main>
+        <form class="payment" method="post">
+            <div class="formTicket">
+                <div class="Left Half">
+                    <div class="event">
+                        <label for="event">Event Name</label>
+                        <input type = text class="event" name="event" placeholder="Event name Here" required/>
+                    </div>
+                    <div>
+                        <label for="mtName">Name</label>
+                        <input type="text" class="mtName" name="mtName" placeholder="First and Last name" required/>
+                    </div>
+                    <div class="tickets">
+                        <label for="tickets">Ticket amount</label>
+                        <input type="number" class="ticket" name="tickets" min="1" max="50" required/>
+                        <!--you can adjust the cost to whatever you wnat it to be here-->
+                        <p class="ticketPrice">(1 ticket is $# dollar)</p>
+                    </div>
+                    <div>
+                        <label for = "credCard"> Credit Card Info</label>
+                    </div>
+                    <div>
+                        <input type="number" class="credCard" name="credCard" placeholder="Credit Card Number" required/>
+                    </div>
+                    <div>
+                        <input type="text" class="credCard" name="credCard" placeholder=" Exparation date" required/>
+                    </div>
+                    <div>
+                        <input type="number" class="credCard" name="credCard" placeholder="CVC" required/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Cancel"/>
+                    </div>
+                </div>
+
+        </div>
+        </form>
+      
+    </main>
+    <footer>
+        Mainway Theater<br>
+        Phone: 555-555-5555<br>
+        Address: 123 Mainway, Town, USA, Zip: 12345
+    </footer>
+</body>
+</html>

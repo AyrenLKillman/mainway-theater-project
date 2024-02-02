@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*HEX CODES 
+#C10635 dark red
+#FF474E pink
+#FF9375 light pink
+#D0D0B3 grey
+#E4EBEC light grey 
+USE LIGHT BLUE FOR TEMP COLOR
+*/
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+    background-color: #D0D0B3;
+    margin:0;
+}
+
+div.class {
+    display:block;
+    float:left;
+}
+
+div.header {
+    display:flex;
+    align-items: row;
+    justify-content: space-around;
+    margin:0;
+    padding:0;
+}
+
+div.header a {
+    display: block;
+    border: solid #D0D0B3;
+    background-color: #FF474E;
+    color: black;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    padding:15px;
+}
+
+div.header a:link, div.header a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+div.header a:hover, div.header a:active{
+    color:#E4EBEC;
+    background-color: #FF9375;
+    border: solid #E4EBEC;
+}
+
+div.link {
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color:#FF9375;
+    padding: 10px;
+    border: solid #E4EBEC;
+}

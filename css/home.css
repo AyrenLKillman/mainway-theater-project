@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*HEX CODES 
+#C10635 dark red
+#FF474E pink
+#FF9375 light pink
+#D0D0B3 grey
+#E4EBEC light grey 
+USE LIGHT BLUE FOR TEMP COLOR
+*/
+
+div.flexes{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    text-align:center;
+    margin:auto;
+}
+
+p.paragraph1{
+    font-size: large;
+}
+
+header img { 
+    width: 100%;
+    box-shadow: 0px 20px 20px black ;
+    padding-top:0px;
+}
+
+
+
+p.reviews {
+    background-color: #FF9375;
+    border:solid #E4EBEC;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right:80px ;
+    padding: 20px;
+}
+
+img.hologram{
+    width:25%;
+    padding-top: 20px;
+    box-shadow: 0px 20px 20px black ;
+}
