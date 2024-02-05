@@ -31,10 +31,11 @@ div.timer div {
 
 table.calTable {
     margin:auto;
+    background:linear-gradient(30deg, #FF9375, #E4EBEC);
 }
 
 table.calTable td {
-    background-color: #E4EBEC;
+    background-color: none;
     border:2px solid #C10635;
     padding: 5px;
     height:50px;
@@ -42,5 +43,5 @@ table.calTable td {
 }
 
 td#calToday {
-    background-color: #FF9375;
+    background-color: #FF474E;
 }
