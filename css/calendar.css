@@ -19,7 +19,6 @@ div.timer {
     justify-content:space-around;
     align-items: center;
     border: solid #E4EBEC;
-    font-size:  x-large;
     width:50%;
     margin:auto;
     padding-top: 30px;
@@ -44,4 +43,8 @@ table.calTable td {
 
 td#calToday {
     background-color: #FF474E;
+}
+
+div.header div.calendarPG a {
+    background-color: #C10635 ;
 }

@@ -10,12 +10,15 @@ USE LIGHT BLUE FOR TEMP COLOR
 */
 html{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(90deg,#FF9375, #D0D0B3, #D0D0B3, #FF9375);
 }
 
 
 body{
-    background: linear-gradient(90deg,#FF9375, #D0D0B3,#D0D0B3,#FF9375);
-    margin:0;
+    background-color: #E4EBEC;
+    margin:auto;
+    width:50%;
+    box-shadow: -2px -2px 25px 2px black;
 }
 
 div.class {

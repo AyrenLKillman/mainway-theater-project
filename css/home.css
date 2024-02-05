@@ -57,3 +57,7 @@ img.hologram{
 h1.paySub{
     text-align: center;
 }
+
+div.header div.homePG a {
+    background-color: #C10635 ;
+}
