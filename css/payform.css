@@ -38,14 +38,14 @@ div#cost {
     border: 1px solid;
     margin: 5px;
     padding: 0;
-    width:59.75%;
+    width:70%;
 }
 
 div#cost p {
     background-color: white;
     margin:0;
     padding: 0;
-    width:75%;
+    width:100%;
 }
 
 /*validation stuff*/
