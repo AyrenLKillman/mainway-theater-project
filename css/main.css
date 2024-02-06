@@ -64,5 +64,11 @@ footer{
     text-align: center;
     background-color:#FF9375;
     padding: 10px;
-    border: solid #E4EBEC;
+}
+
+
+@media only screen and (max-width:1060px) {
+    body {
+        width:100%;
+    }
 }

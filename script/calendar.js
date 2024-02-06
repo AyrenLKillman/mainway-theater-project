@@ -16,7 +16,7 @@ function calLabel(calDate) {
     const monthName = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const thisMonth = calDate.getMonth();
     const thisYear = calDate.getFullYear();
-    return "<caption>" + monthName[thisMonth] + " " + thisYear + "</caption>";
+    return "<caption>" + "<h3>" + monthName[thisMonth] + " " + thisYear + "</h3>" +"</caption>";
 }
         //makes a row for each day of the week
 function calWeekDayRow() {

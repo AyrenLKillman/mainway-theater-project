@@ -30,7 +30,7 @@ div.timer div {
 
 table.calTable {
     margin:auto;
-    background:linear-gradient(30deg, #FF9375, #E4EBEC);
+    background:linear-gradient(360deg, #FF9375,#FF9375, #E4EBEC, #E4EBEC);
 }
 
 table.calTable td {

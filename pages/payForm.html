@@ -6,6 +6,7 @@
     <title>Purchase Form</title>
     <link href="../css/main.css" rel="stylesheet"/>
     <link href="../css/payform.css" rel="stylesheet"/>
+    <script src="../script/payForm.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,12 +19,13 @@
     </header>
     <!--under this is the Form-->
     <main>
-        <form class="payment" method="post">
+                        <!--the Action should be replaced with where you want to send Form info to-->
+        <form class="payment" method="post" action="http://www.example.com/form/submit">
             <div class="formTicket">
                 <div class="Left Half">
                     <div class="event">
                         <label for="event">Event Name</label>
-                        <input type = text class="event" name="event" placeholder="Event name Here" required/>
+                        <input type = "text" class="event" name="event" placeholder="Event name Here" required/>
                     </div>
                     <div>
                         <label for="mtName">Name</label>
@@ -31,30 +33,26 @@
                     </div>
                     <div class="tickets">
                         <label for="tickets">Ticket amount</label>
-                        <input type="number" class="ticket" name="tickets" min="1" max="50" required/>
-                        <!--you can adjust the cost to whatever you wnat it to be here-->
-                        <p class="ticketPrice">(1 ticket is $# dollar)</p>
+                        <input type="number" id="ticket" class="ticket" name="tickets" min="1" max="6" pattern="[0-6]{1}" required />
+                        <input type="button" id="check" value="Check" />
+
                     </div>
                     <div>
                         <label for = "credCard"> Credit Card Info</label>
                     </div>
                     <div>
-                        <input type="number" class="credCard" name="credCard" placeholder="Credit Card Number" required/>
+                        <input type="text" class="credCard" name="credCard" placeholder="Credit Card Number" pattern="[0-9]{16}" required/>
                     </div>
                     <div>
-                        <input type="text" class="credCard" name="credCard" placeholder=" Exparation date" required/>
+                        <input type="text" class="credCard" name="credCard" placeholder="Experation date (mm/yy)" pattern="[0-9]{2}/[0-9]{2}" required/>
                     </div>
                     <div>
-                        <input type="number" class="credCard" name="credCard" placeholder="CVC" required/>
+                        <input type="text" class="credCard" name="credCard" placeholder="CVC" pattern="[0-9]{3}" required/>
                     </div>
-                    <div>
-                        <a href="./submit.html">
-                            <input type="button" value="Submit" />
-                        </a>
+                        <div id="cost"></div>
+                        <input type="submit" value="Submit" />
                         <input type="reset" value="Cancel"/>
-                    </div>
                 </div>
-
         </div>
         </form>
       

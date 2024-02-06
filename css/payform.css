@@ -32,3 +32,32 @@ header img {
 div.header div.payPG a {
     background-color: #C10635 ;
 }
+
+div#cost {
+    background-color: white;
+    border: 1px solid;
+    margin: 5px;
+    padding: 0;
+    width:59.75%;
+}
+
+div#cost p {
+    background-color: white;
+    margin:0;
+    padding: 0;
+    width:75%;
+}
+
+/*validation stuff*/
+ input.event:focus:valid,
+ input.mtName:focus:valid,
+ input.ticket:focus:valid,
+ input.credCard:focus:valid {
+    background:rgb(118, 255, 118);
+ }
+ input.event:focus:invalid,
+ input.mtName:focus:invalid,
+ input.ticket:focus:invalid,
+ input.credCard:focus:invalid {
+    background:rgb(255, 113, 121);
+ }
