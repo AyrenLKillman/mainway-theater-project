@@ -15,7 +15,7 @@ html{
 
 
 body{
-    background-color: #E4EBEC;
+    background: linear-gradient(360deg,#FF9375, #FF9375, #E4EBEC, #E4EBEC,#E4EBEC, #E4EBEC);
     margin:auto;
     width:50%;
     box-shadow: -2px -2px 25px 2px black;
